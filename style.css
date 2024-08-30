@@ -1,0 +1,117 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff61f498;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cardapio {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardapio h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cardapio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.cardapio li {
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.cardapio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.cardapio h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Adicionando classes para estilizar os ingredientes e brigadeiros */
+.cardapio h4.ingrediente {
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  .cardapio h4.brigadeiro {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Reduzindo a destaque dos preços */
+  .cardapio p.preco {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.top-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-image {
+    width: 40%;
+    margin: 20px;
+}
+
+.bottom-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #ff61f498;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
